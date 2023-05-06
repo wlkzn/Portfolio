@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* height: 100vh;  */
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 13%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 8%;
+}
+
+.cabecalho__menu__links {
+    color: purple;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho__menu__links:hover {
+    color: #9932CC;
+}
+
+.titulo-destaque {
+    color:purple;
+}
+
+.principal {
+    padding:5% 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto {
+    position: absolute;
+    right: 15%;
+    top: 18%;
+    border-radius: 23px;
+    box-sizing: border-box;
+    border: 10px solid purple;
+    border-left: 353px;
+    border-top: 466px;  
+}
+
+.principal__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.principal__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif; 
+}
+
+.principal__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;  
+}
+
+.principal__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.principal__links__botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;    
+    
+}
+
+.principal__links__botao:hover {
+    background-color: #272727;
+}
+
+.subititulo__links {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+}
+
+.rotape {
+    color: black;
+    background-color: purple;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*@media screen and (max-width: 768px) {
+    .principal{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+
